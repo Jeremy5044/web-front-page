@@ -10,14 +10,8 @@
 
 }
 
-// other styles
+// slider work
 
-// header {
-//   font-family: Arial, Helvetica, sans-serif;
-//   text-align:center;
-//   height: 10em;
-//   padding: 2em;
-// }
 
 
 
@@ -65,10 +59,12 @@ b{
 
 
 
-section {
-    width: 100%;
-    height: 674px;
-    background: #ca5c46;
+.whole-wrapper{
+  width: 100%;
+height: 600px;
+
+background:inherit;
+
 }
 
 .nav{
@@ -232,10 +228,11 @@ height: 491px;
 .page-text-box {
   height: 490px;
 
-  /* position: absolute; */
   width: 50%;
   padding: 0%;
   background: white;
+  padding-left: 5%;
+
 
 }
 .we{
@@ -291,13 +288,15 @@ h6{
       letter-spacing: 3px;
       text-align: center;
       margin-bottom: 3%;
-      margin-top: 30px;
+      margin-top: 96px;
       font-family: 'Yantramanav', sans-serif;
 
 }
 .img7{
 width: 99%;
-    margin-top: 25%;
+    margin-top: 50%;
+    padding-left: 5%;
+
 }
 .about-strad{
   height: 730px;
@@ -618,10 +617,21 @@ margin-left: 50px;
 
 }
 .top-about{
-  height: 500px;
+  height: 600px;
 overflow: hidden;
-
 }
+#about-tt{
+  position: absolute;
+top: 30%;
+color: white;
+left: 0%;
+font-size: 60px;
+letter-spacing: 10px;
+line-height: 93px;
+text-align: center;
+text-shadow: 1px 9px 10px #000;
+}
+
 #img10{
   width: 100%;
 }
@@ -642,11 +652,6 @@ form{
 
 }
 
-  section {
-      width: 100%;
-      height: 1309px;
-      background: tomato;
-  }
 
 
 
@@ -716,11 +721,11 @@ margin-bottom: 20px;
 .cont-text2{
   width: 89%;
     font-size: 25px;
-    padding-left: 57px;
+    padding-left: 5px;
     font-family: 'Roboto', sans-serif;
     line-height: 37px;
     margin-top: 118px;
-      color: #847c7a;
+      color: white;
 }
 .cont-text{
 position: absolute;
@@ -735,7 +740,7 @@ position: absolute;
 
 }
 .qoute{
-    color: #847c7a;
+    color: white;
 font-size: 23px;
 text-align: center;
 margin-bottom: 38px;
@@ -753,7 +758,7 @@ margin-bottom: 38px;
   padding-left: 19px;
   margin-top: 4%;
   padding-left: 77px;
-      color: tomato;
+  color: #000;
 }
 .num{
   width: 42%;
@@ -761,16 +766,16 @@ margin-bottom: 38px;
   margin-top: 3%;
   padding-left: 60px;
       text-align: center;
-          color: tomato;
+          color: #000;
 
 }
 .num2{
   width: 42%;
   font-size: 30px;
   margin-top: 1%;
-  padding-left: 60px;
+  padding-left: 7px;
       text-align: center;
-          color: tomato;
+          color: #000;
     }
 
 
@@ -779,18 +784,22 @@ margin-bottom: 38px;
 }
 .cont-text3{
   width: 85%;
-  padding-left: 60px;
+  padding-left: 5px;
   font-size: 24px;
   margin-top: 30px;
   font-family: 'Yantramanav', sans-serif;
   text-align: left;
-  color: #000;
+  color: white;
 
 }
 footer{
-  height: 200px;
+  height: 40px;
   background: #000000;
   margin-top: 190px;
+  color: white;
+text-align: center;
+padding-top: 50px;
+font-size: 15px;
 }
 
 @media (max-width: $break-width){
@@ -963,7 +972,7 @@ span {
 h2 {
     width: 100%;
     position: fixed;
-    top: 39%;
+    top: 30%;
     padding: 0%;
     color: #ffffff;
     font-size: 61px;
@@ -990,7 +999,7 @@ h1 {
 h3 {
     width: 100%;
     position: fixed;
-    top: 55%;
+    top: 45%;
     color: #ffffff;
     font-size: 15px;
     left: 0%;
@@ -1003,7 +1012,12 @@ h3 {
 }
 
 h4 {
-  display: none;
+    position: absolute;
+    top: 65%;
+    color: white;
+    left: 33%;
+    border: solid 2px;
+    padding: 4%;
 }
 // h4:hover{
 //   background: rgba(255, 247, 247, 0.43);
@@ -1049,8 +1063,9 @@ video{
  display: none;
 }
 
-#img10{
+#img10 {
     width: 100%;
+    height: 285px;
 }
 .img1{
 
@@ -1069,6 +1084,7 @@ video{
     position: inherit;
     width: 100%;
         padding: 0%;
+
 
 }
 .p-text {
@@ -1099,10 +1115,9 @@ video{
 }
 
 .img7 {
-  width: 100%;
-position: absolute;
-margin-top: 10%;
-
+  width: 93%;
+      position: absolute;
+      margin-top: 32%;
 
 }
 form {
@@ -1123,12 +1138,12 @@ form {
 .p-2 {
   width: 90%;
      font-family: 'Yantramanav', sans-serif;
-     font-size: 22px;
+     font-size: 17px;
      color: #444;
      /* padding-left: 27px; */
      height: 315px;
      padding: 5%;
-     margin-bottom: 36%;
+     margin-bottom: 5%;
 
 }
 .img9 {
@@ -1145,7 +1160,7 @@ form {
 }
 .p-text2 {
     font-family: 'Yantramanav', sans-serif;
-    font-size: 26px;
+    font-size: 17px;
     color: #000;
     margin-top: 8%;
     line-height: 37px;
@@ -1170,11 +1185,14 @@ strong {
     display: none;
 }
 footer{
-  height: 100px;
-background: #000000;
-margin-top: 785px;
+  height: 34px;
+      background: #000000;
+      margin-top: 788px;
+      font-size: 8px;
+  }
 
-}
+
+
 textarea {
     width: 100%;
     height: 95px;
@@ -1247,7 +1265,7 @@ margin-top: 12%;
     padding-left: 19px;
     margin-top: 4%;
     padding-left: 33px;
-    color: tomato;
+    color: #000;
 }
 .num {
     width: 91%;
@@ -1255,7 +1273,7 @@ margin-top: 12%;
     margin-top: 3%;
     padding-left: 26px;
     text-align: center;
-    color: tomato;
+color: #000;
 }
 .contact-box {
     width: 100%;
@@ -1269,11 +1287,27 @@ margin-top: 12%;
     margin-top: 1%;
     padding-left: 22px;
     text-align: center;
-    color: tomato;
+    color: #000;
 }
 .Minue{
   color: white;
     position: fixed;
     left: 19%;
 font-size: 16px;
+}
+#about-tt {
+    position: absolute;
+    top: 17%;
+    color: white;
+    left: 0%;
+    font-size: 17px;
+    letter-spacing: 6px;
+    line-height: 37px;
+    text-align: center;
+    text-shadow: 1px 9px 10px #000;
+}
+.whole-wrapper {
+  width: 100%;
+height: 1309px;
+background: #524b4b;
 }
